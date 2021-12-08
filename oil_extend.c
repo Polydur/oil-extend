@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 #include<math.h>
-main()
+int main()
 {   
 	float phr_require,oil_carrier,answer,net_rubber,net_oil;
 	printf("\n SBR Oil-Extended");
@@ -22,6 +22,5 @@ main()
 	printf("\n");
 	printf("\nRubber net: %.2f PHR",net_rubber);
 	printf("\nOil net: %.2f PHR",net_oil);
-
-}
+        printf("\n");
 	
